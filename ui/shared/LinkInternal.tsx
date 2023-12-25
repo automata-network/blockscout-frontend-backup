@@ -16,7 +16,7 @@ const LinkInternal = ({ isLoading, ...props }: LinkProps & { isLoading?: boolean
 
   return (
     <NextLink href={ props.href as NextLinkProps['href'] } passHref target={ props.target } legacyBehavior>
-      <Link { ...props } ref={ ref }/>
+      <Link {...props} style={{color:'#F59448'}} ref={ ref }/>
     </NextLink>
   );
 };
