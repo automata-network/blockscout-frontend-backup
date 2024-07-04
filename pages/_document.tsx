@@ -52,7 +52,7 @@ class MyDocument extends Document {
           <link rel="icon" sizes="16x16" type="image/png"href="/assets/favicon/favicon-16x16.png"/>
           <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon-180x180.png"/>
           <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg"/>
-<style>{`
+          <style>{ `
 :root {
   --chakra-colors-link: #e06612 !important;
 }
